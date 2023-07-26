@@ -20,6 +20,7 @@ export function Overview() {
   return (
     <div className="overflow-x-auto">
       <table className="table table-xs table-zebra">
+        <tbody>
         <tr>
           <th>Uitgave</th>
           <StatusPayPerson name="Mike" />
@@ -29,6 +30,7 @@ export function Overview() {
         <ExpanseRow amount={60} />
         <ExpanseRow amount={51} />
         <ExpanseRow amount={33} />
+        </tbody>
       </table>
     </div>
   );
